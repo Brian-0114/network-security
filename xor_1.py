@@ -13,11 +13,6 @@ KEY = [
         "77", # 72
         ]
  
-'''
-ANSWER:
-The last 3 of the key array is:
-    103,118,114 (in hex)
-'''
  
 # for testing
 def hex_xor(h1, h2):

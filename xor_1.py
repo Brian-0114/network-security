@@ -14,15 +14,6 @@ KEY = [
         ]
  
  
-# for testing
-def hex_xor(h1, h2):
-    int_result = int(h1, 16) ^ int(h2, 16)
- 
-    str_result = hex(int_result)[2:]
-    if len(str_result) == 1:
-        str_result = "0" + str_result
-    return str_result
- 
  
 def xor(data, key_arr):
     i = 0
